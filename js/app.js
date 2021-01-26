@@ -1,10 +1,10 @@
-import './App.scss';
+import './app.scss';
 import styled, {ThemeProvider} from 'styled-components';
 import Logo from './Logo';
-import ComingSoon from './ComingSoon';
-import Hero from './Hero';
-import backgroundPattern from './images/bg-pattern-desktop.svg';
-import Footer from './Footer';
+import comingsoon from './comingsoon';
+import hero from './hero';
+import backgroundpattern from './images/bg-pattern-desktop.svg';
+import footer from './footer';
 
 
 const theme = {
@@ -50,19 +50,19 @@ const Main = styled.div`
   }
 `;
 
-function App() {
+function app() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <Main>
-          <Logo/>
-          <ComingSoon/>
-          <Hero/>
+      <div className="app">
+        <main>
+          <logo/>
+          <comingsoon/>
+          <hero/>
         </Main>
-          <Footer/>
+          <footer/>
       </div>
     </ThemeProvider>
   );
 }
 
-export default App;
+export default app;
