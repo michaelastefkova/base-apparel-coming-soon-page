@@ -1,6 +1,6 @@
-import './App.scss';
+import './app.scss';
 import styled from 'styled-components';
-import LogoImg from '././images/logo.svg'
+import LogoImg from '/images/logo.svg'
 
 const StyledLogo = styled.div`
   padding:2em 3em;
@@ -34,4 +34,4 @@ const Logo = () => {
         </StyledLogo>
     )
 }
-export default Logo;
+export default logo;
