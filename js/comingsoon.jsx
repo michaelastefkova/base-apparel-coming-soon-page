@@ -1,6 +1,6 @@
-import './App.scss';
+import './app.scss';
 import styled, { keyframes } from 'styled-components';
-import EmailSignUp from './EmailSignUp';
+import emailsignup from './emailsignup';
 
 
 const slideInLeft = keyframes`
@@ -74,7 +74,7 @@ const Paragraph = styled.p`
   }
 `;
 
-const ComingSoon = () => {
+const comingsoon = () => {
     return (
         <Container>
             <Title pink>We're</Title>
@@ -85,4 +85,4 @@ const ComingSoon = () => {
         </Container>
     )
 }
-export default ComingSoon;
+export default comingsoon;
