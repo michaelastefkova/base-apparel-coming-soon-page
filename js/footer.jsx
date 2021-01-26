@@ -1,4 +1,4 @@
-import './App.scss';
+import './app.scss';
 import styled from 'styled-components';
 
 const StyledP = styled.p`
@@ -10,15 +10,15 @@ const StyledP = styled.p`
     
 `;
 
-function Footer() {
+function footer() {
     return (
         <footer>
             <StyledP className="attribution">
-                Challenge by <a href="https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/BatoolHasan/base-apparel-coming-soon-page">Batool Hasan</a>.
+                Challenge by <a href="https://www.frontendmentor.io">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/michaelastefkova">Michaela Stefkova</a>.
     </StyledP>
         </footer>
     )
 }
 
-export default Footer;
+export default footer;
