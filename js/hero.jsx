@@ -1,4 +1,4 @@
-import './App.scss';
+import './app.scss';
 import styled from 'styled-components';
 import HeroImgDesktop from '././images/hero-desktop.jpg'
 import HeroImgMobile from '././images/hero-mobile.jpg'
@@ -34,7 +34,7 @@ const StyledImg = styled.picture`
   }
 `;
 
-const Hero = () => {
+const hero = () => {
     return (
         <StyledImg >
             <source media="(max-width:969px)" srcSet={HeroImgMobile} />
@@ -43,4 +43,4 @@ const Hero = () => {
         </StyledImg>
     )
 }
-export default Hero;
+export default hero;
