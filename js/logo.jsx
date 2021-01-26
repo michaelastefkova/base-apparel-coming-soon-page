@@ -10,6 +10,7 @@ const StyledLogo = styled.div`
   display:flex;
   justify-items:center;
   align-items:center;
+
   @media only screen and (max-width: 960px) {
     padding:2em 3em;
     grid-column: 1/span 1;
