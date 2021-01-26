@@ -1,4 +1,4 @@
-import './App.scss';
+import './app.scss';
 import styled, { keyframes } from 'styled-components';
 import errorIcon from './images/icon-error.svg';
 import arrowIcon from './images/icon-arrow.svg';
@@ -91,12 +91,12 @@ const WarningIcon = styled.img`
     display:none;
     `;
 
-const StyledLabel = styled.label`
+const styledlabel = styled.label`
     margin-top:1em;
     margin-left:2em;
     display:none;
 `;
-const EmailSignUp = () => {
+const emailsignup = () => {
 
     return (
         <Container>
@@ -113,4 +113,4 @@ const EmailSignUp = () => {
 
 }
 
-export default EmailSignUp;
+export default emailsignup;
